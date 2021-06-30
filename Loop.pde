@@ -28,11 +28,11 @@ if (y>height-10 && yy>0){
   colour = colour + 5;
   rectSize=rectSize+20;
   
-}for (int i=0; i ){
+}for (yy=10; yy=0 ; i=i+30 ){
   
   fill(colour);
   rect(width/2,y,rectSize,20);
-  y = y + 30;
+  //y = y + 30;
   colour=colour+10;
   rectSize=rectSize+40;
   
