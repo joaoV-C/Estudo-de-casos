@@ -1,0 +1,33 @@
+void setup() {
+  size (700, 700);
+}
+
+void draw() { 
+  background(255);
+
+  fill(0);
+  noStroke();
+  smooth();
+  translate(30,30);
+  
+  float t = width;
+  float c = width/t;
+   
+ 
+  for (int x=0; x<t; x++) {
+    for (int y=0; y<t; y++) {
+    ellipse(x*c*50, y*50, 30, 30);
+    }
+  }
+  
+  if(key == '+'){
+    c++;
+    
+  } else{
+    if(key == '-'){
+     c--; 
+    }
+  }
+  
+  
+}
